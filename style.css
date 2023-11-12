@@ -1,0 +1,469 @@
+/* Navigation styles */
+.nav {
+    text-align: right; 
+    padding: 10px; 
+    font-size: 16px; 
+    color: black; 
+    position: fixed; /* Fixes the navigation bar in its position */
+    right: 0; 
+    top: 10px; 
+}
+
+/* Navigation link styles */
+.nav a {
+    text-decoration: none; 
+    padding: 10px; 
+    background-color: goldenrod; 
+    border-radius: 20px; 
+    text-align: right; 
+}
+
+/* Navigation link hover effect */
+.nav a:hover {
+    background-color: deeppink; 
+}
+
+/* Body styles */
+body {
+    background-color: black; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    color: peachpuff; 
+}
+
+/* Banner styles */
+.banner {
+    height: 350px; 
+    width: 100%;     background-image: url(banner.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+/* Banner text styles */
+.banner-text{
+    text-align: left;
+    background-color: ;
+    width: 30%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 40px;
+}
+
+/* Heading styles inside banner text */
+.banner-text h2 {
+    font-size: 70px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Paragraph styles inside banner text */
+.banner-text p {
+    color: darkblue;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: goldenrod;
+}
+
+/* Image styles */
+.intro-image img, .intro-image1 img{
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+}
+
+.buy-image img{
+    width: 100%;
+    height: auto;
+}
+
+/* Delivery section styles */
+.Deliver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deliver img{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+/* About page body styles */
+.about-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+    padding: 20px;
+    font-size: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.openphoto{
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+}
+
+.openphoto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Our-Why section styles */
+.our-why{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px;
+    font-size: 18px;
+    background-color: peachpuff;
+    color: black;
+}
+
+/* Our section styles */
+.our{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Why section styles */
+.why{
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Stay section styles */
+.stay{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Form container styles */
+.Form-container{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Form-container label{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Input styles */
+input[type="text"],input[type="email"], textarea{
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+/* Textarea styles */
+textarea{
+    height: 200px;
+}
+
+/* Submit button styles */
+button[type="submit"]{
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Product container styles */
+.product {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product button styles */
+.product button{
+    display: inline-block;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color:orange ;
+    width: 70%;
+}
+
+/* Product image styles */
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Products section styles */
+.products {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+/* Footer styles */
+.footer{
+    background-color: gray;
+    padding: 30px;
+}
+
+/* Footer link styles */
+.footer a {
+    padding: 15px;
+    color: black;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+/* All links styles */
+a{
+    text-decoration: none;
+}
+
+/* Search container styles */
+.search-container {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Search input styles */
+#search-input {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Search button styles */
+#search-button {
+    background-color: goldenrod;
+    color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Search button hover effect */
+#search-button:hover {
+    background-color: orangered;
+}
+
+/* Social icons section styles */
+.social-icons {
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Social icon link styles */
+.social-icons a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+/* Reach section styles */
+.reach {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Reach icon styles */
+.reach i{
+    font-size: 30px;
+}
+
+/* Reach link styles */
+.reach a{
+    font-size: 26px;
+    color: darkblue;
+}
+
+/* Contact page styles */
+#contact-page{
+    background-color: white;
+    color: black;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .nav {
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .nav a {
+        display: block ;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .banner-text {
+        width: 80%;
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    /* Heading 2 styles inside banner text */
+    .banner-text h2 {
+        font-size: 60px;
+        color: papayawhip;
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+    }
+
+    /* Paragraph styles inside banner text */
+    .banner-text p {
+        color: black;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .intro,
+    .about-body,
+    .container,
+    .search-container,
+    .social-icons,
+    .reach {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .products{
+         display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    }
+
+    .product{
+         color: black;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Adjustments for product images */
+    .product img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .intro-image img, .intro-image1 img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .Deliver img{
+        height: 200px;
+        width: 200PX;
+    }
+
+    .text{
+        font-size: 16px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .about-body{
+        display: inline-block;
+        align-items: center;
+    }
+
+    .openphoto img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+    }
+
+    .our-why{
+        display: inline-block;
+        align-items: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 30px;
+        font-size: 18px;
+        background-color: peachpuff;
+        color: black;
+    }
+    .footer{
+    background-color: gray;
+    padding: 30px;
+}
+
+/* Footer link styles */
+.footer a {
+    padding: 5px;
+    color: black;
+    margin: 5px;
+    font-size: 18px;
+}
