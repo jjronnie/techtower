@@ -1,0 +1,641 @@
+
+
+
+
+
+/* responsive nav */
+
+.mobile-nav {
+    display: none; /* Hide for desktop */
+}
+.desktop-nav {
+    display: block; /* Display for desktop */
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    background-color: goldenrod;
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu a:hover {
+    background-color: #ddd;
+  }
+  
+  .menu-btn {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    
+  }
+  
+  .menu-btn span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  .menu-btn{
+      font-size: 12px;
+      padding: 2px;
+      margin: 2px;
+  }
+  
+
+
+
+
+/* Body styles */
+body {
+    background-color: black; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    color: white; 
+}
+
+/* Banner styles */
+.banner {
+    height: 300px; 
+    width: 100%;     
+    background-image: url(img/banner.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+/* Banner text styles */
+.banner-text{
+    text-align: left;
+    width: 30%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 40px;
+}
+
+/* Heading styles inside banner text */
+.banner-text h2 {
+    font-size: 70px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Paragraph styles inside banner text */
+.banner-text p {
+    color: darkblue;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: goldenrod;
+}
+
+/* Image styles */
+.intro-image img, .intro-image1 img{
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+}
+
+.buy-image img{
+    width: 100%;
+    height: auto;
+}
+.vendor-image img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* Delivery class styles */
+.Deliver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deliver img{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+/* About page body styles */
+.about-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+    padding: 20px;
+    font-size: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.openphoto{
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+}
+
+.openphoto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+/* Our-Why section styles */
+.our-why{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px;
+    font-size: 18px;
+    background-color: peachpuff;
+    color: black;
+}
+
+/* Our section styles */
+.our{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Why section styles */
+.why{
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Stay section styles */
+.stay{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Form container styles */
+.Form-container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Form-container label{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Input styles */
+/* attributes in the form area*/
+input[type="text"],input[type="email"], textarea{
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+/* Textarea styles */
+textarea{
+    height: 200px;
+}
+
+/* Submit button styles */
+button[type="submit"]{
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Product container styles */
+.product {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product button styles */
+.product button{
+    display: inline-block;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color:orange ;
+    width: 70%;
+}
+
+/* Product image styles */
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Products section styles */
+.products {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+/* Footer styles */
+.footer{
+    background-color: gray;
+    padding: 30px;
+}
+
+/* Footer link styles */
+.footer a {
+    padding: 15px;
+    color: black;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+/* All links styles */
+a{
+    text-decoration: none;
+}
+
+/* Search container styles */
+.search-container {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Search input styles */
+#search-input {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Search button styles */
+#search-button {
+    background-color: goldenrod;
+    color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Search button hover effect */
+#search-button:hover {
+    background-color: orangered;
+}
+
+/* Social icons section styles */
+.social-icons {
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Social icon link styles */
+.social-icons a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+/* Reach section styles */
+.reach {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Reach icon styles */
+.reach i{
+    font-size: 30px;
+}
+
+/* Reach link styles */
+.reach a{
+    font-size: 26px;
+    color: darkblue;
+}
+
+/* Contact page styles */
+#contact{
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+
+    nav {
+        text-align: center;
+    }
+    
+    /* Styles for mobile navigation */
+    .mobile-nav {
+        display: block; /* Display for mobile */
+        
+    }
+    
+    /* Styles for desktop navigation */
+    .desktop-nav {
+        display: none; /* Hide for mobile */
+    }
+
+    .menu-btn {
+        position: fixed;
+        cursor: pointer;
+        
+        left: 80%;
+        top: 20px;
+    }
+    
+    .menu-btn span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+        
+    }
+   
+
+    .menu-container {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .menu {
+        display: none;
+        position: fixed;
+        background-color: white;
+        min-width: 50px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px;
+        z-index: 1;
+        top: 90px;
+        left: 70%;
+      }
+      
+      .menu a {
+        display: block;
+        padding: 8px 0;
+        text-decoration: none;
+        color: black;
+        text-align: left;
+      }
+      
+      .menu a:hover {
+        background-color: #ddd;
+      }
+      
+  
+    
+
+     .banner-text {
+        width: 80%;
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .banner-text h2 {
+        
+        font-size: 60px;
+        color: papayawhip;
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .banner-text p {
+        
+        color: black;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .text {
+        padding: 10px; /* Adjusted for mobile */
+        font-size: 14px; /* Adjusted for mobile */
+    }
+
+    .openphoto {
+        padding: 10px; /* Adjusted for mobile */
+    }
+
+    .our-why {
+        padding: 10px; /* Adjusted for mobile */
+        margin: 10px; /* Adjusted for mobile */
+        font-size: 12px; /* Adjusted for mobile */
+    }
+
+    .our, .why {
+        padding: 10px; /* Adjusted for mobile */
+        margin: 5px; /* Adjusted for mobile */
+    }
+
+    .stay {
+        padding: 10px; /* Adjusted for mobile */
+    }
+
+    .Form-container {
+        width: 100%; /* Adjusted for mobile */
+        padding: 10px; /* Adjusted for mobile */
+    }
+
+    .Form-container label {
+        padding: 5px; /* Adjusted for mobile */
+        margin: 5px; /* Adjusted for mobile */
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        width: 90%; /* Adjusted for mobile */
+        padding: 5px; /* Adjusted for mobile */
+    }
+
+    textarea {
+        height: 100px; /* Adjusted for mobile */
+    }
+
+    button[type="submit"] {
+        padding: 5px 10px; /* Adjusted for mobile */
+    }
+
+    .product {
+        padding: 5px; /* Adjusted for mobile */
+    }
+
+    .product button {
+        padding: 3px; /* Adjusted for mobile */
+        font-size: 8px; /* Adjusted for mobile */
+    }
+
+    #search-input {
+        width: 60%; /* Adjusted for mobile */
+    }
+
+    #search-button {
+        padding: 5px 10px; /* Adjusted for mobile */
+        font-size: 14px; /* Adjusted for mobile */
+    }
+
+    .footer a {
+        padding: 5px; /* Adjusted for mobile */
+        font-size: 12px; /* Adjusted for mobile */
+    }
+
+    .social-icons a {
+        padding: 3px; /* Adjusted for mobile */
+        font-size: 24px; /* Adjusted for mobile */
+    }
+
+    .reach a {
+        font-size: 20px; /* Adjusted for mobile */
+    }
+
+    .reach i {
+        font-size: 20px; /* Adjusted for mobile */
+    }
+
+
+/* Product container styles */
+.product {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: calc(50% - 20px); /* Adjusted to display 4 products per line with spacing */
+    vertical-align: top; /* Align containers to the top */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Product button styles */
+.product button {
+    margin: 5px;
+    display: inline-block;
+    padding: 10px; /* Adjusted padding for mobile */
+    font-size: 11px; /* Adjusted font size for mobile */
+    width: 80%; /* Adjusted width for better fit */
+    max-width: 150px; /* Added max-width for better responsiveness */
+    white-space: nowrap; /* Prevent button text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+}
+
+/* Product image styles */
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* Products section styles */
+.products {
+    text-align: center; /* Center align products */
+    padding: 10px; /* Adjusted for spacing */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto; /* Center products section */
+    background-color: whitesmoke;
+    font-size: 0; /* Remove white space between inline-block elements */
+}
+.product p{
+    font-size: 16px;
+
+}
+}

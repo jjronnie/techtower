@@ -3,12 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <title>Tech Tower - Home</title>
 </head>
 <body>
+
+  <nav class="desktop-nav">
+      
+    <a href="#products"> Shop🛒</i></a>
+  <a href="#about"> About </a>
+  <a href="#contact">Contact Us </a>
+  
+  </nav>
+
+
+
   <header class="banner">
       <div class="banner-text">
         <h2>Tech<i class="fas fa-shopping-cart"></i> Tower </h2>
@@ -16,10 +27,54 @@
       </div>
 
       <div class="nav">
-      <a href="#products"> Shop🛒</i></a>
+      
+     
+
+     <nav class="mobile-nav">
+
+      <div class="menu-container">
+        <div class="menu-btn" onclick="toggleMenu()"><p>MENU</p>
+      
+          <span></span>
+          <span></span>
+          <span></span>
+          
+        </div>
+        <div class="menu" id="menu">
+          <a href="#products"> Shop🛒</i></a>
       <a href="#about"> About </a>
       <a href="#contact">Contact Us </a>
-     </div>
+        </div>
+          
+      
+        </div>
+      </div>
+      </nav>
+      
+    
+      
+      
+      
+      
+      <script>
+        function toggleMenu() {
+          var menu = document.getElementById("menu");
+          menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        }
+      </script>
+      
+
+
+
+
+
+
+
+
+
+
+
+
     </header> 
     
 <div class="search-container">
@@ -29,7 +84,7 @@
 
 <section class="buy">    
   <div class="buy-image">
-    <img src="buy.jpg"> 
+    <img src="img/buy.jpg"> 
   </div>
   </section>
   <section id = "products">
@@ -43,7 +98,7 @@
       
     <section  class = "products">
         <div class="product">
-          <img src="samsung.jpg" width="200px" height="200px" alt="Phone 1">
+          <img src="img/samsung.jpg" width="200px" height="200px" alt="Phone 1">
           <p>Samsung Galaxy S21 Ultra 5G</p>
           <p>8GB RAM 256GB ROM</p>
           <p>Price: USD 387.2</p>
@@ -52,7 +107,7 @@
     
 
     <div class="product">
-     <img src="iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
+     <img src="img/iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
      <p>Iphone 11 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -61,7 +116,7 @@
 
 
       <div class="product">
-     <img src="latest.jpg" width="200px" height="200px" alt="latest">
+     <img src="img/latest.jpg" width="200px" height="200px" alt="latest">
      <p>SAMSUNG GALAXY S22 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -69,7 +124,7 @@
       </div>
 
       <div class="product">
-     <img src="note.jpg" width="200px" height="200px" alt="note">
+     <img src="img/note.jpg" width="200px" height="200px" alt="note">
      <p>Samsung Galaxy Note 20 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -78,7 +133,7 @@
     
   
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -87,7 +142,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -97,7 +152,7 @@
 
 
     <div class="product">
-    <img src="newiphone.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/newiphone.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Brand New Iphone 14</p>
     <p>256GB ROM</p>
     <p>Price: USD 317.2</p>
@@ -106,7 +161,7 @@
 
 
       <div class="product">
-    <img src="fold.jpg" width="200px" height="200px" alt="fold">
+    <img src="img/fold.jpg" width="200px" height="200px" alt="fold">
     <p>Samsung SZ flip</p>
     <p>256GB ROM 8GB RAM</p>
     <p>Price: USD 319.2</p>
@@ -118,7 +173,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -126,7 +181,7 @@
       </div>
 
     <div class="product">
-    <img src="samsung.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/samsung.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Samsung Galaxy S21 Ultra 5G</p>
     <p>8GB RAM 256GB ROM</p>
     <p>Price: USD 387.2</p>
@@ -135,7 +190,7 @@
     
 
     <div class="product">
-    <img src="iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
+    <img src="img/iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
      <p>Iphone 11 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -144,7 +199,7 @@
     
   
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -153,7 +208,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -161,7 +216,7 @@
    </div>
 
     <div class="product">
-    <img src="newiphone.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/newiphone.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Brand New Iphone 14</p>
     <p>256GB ROM</p>
     <p>Price: USD 317.2</p>
@@ -171,7 +226,7 @@
 
 
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -183,7 +238,7 @@
 
 
        <div class="product">
-     <img src="iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
+     <img src="img/iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
      <p>Iphone 11 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -192,7 +247,7 @@
 
 
       <div class="product">
-     <img src="latest.jpg" width="200px" height="200px" alt="latest">
+     <img src="img/latest.jpg" width="200px" height="200px" alt="latest">
      <p>SAMSUNG GALAXY S22 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -200,7 +255,7 @@
       </div>
 
       <div class="product">
-     <img src="note.jpg" width="200px" height="200px" alt="note">
+     <img src="img/note.jpg" width="200px" height="200px" alt="note">
      <p>Samsung Galaxy Note 20 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -209,7 +264,7 @@
     
   
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -218,7 +273,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -228,7 +283,7 @@
 
 
     <div class="product">
-    <img src="newiphone.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/newiphone.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Brand New Iphone 14</p>
     <p>256GB ROM</p>
     <p>Price: USD 317.2</p>
@@ -237,7 +292,7 @@
 
 
       <div class="product">
-    <img src="fold.jpg" width="200px" height="200px" alt="fold">
+    <img src="img/fold.jpg" width="200px" height="200px" alt="fold">
     <p>Samsung SZ flip</p>
     <p>256GB ROM 8GB RAM</p>
     <p>Price: USD 319.2</p>
@@ -249,7 +304,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -257,7 +312,7 @@
       </div>
 
     <div class="product">
-    <img src="samsung.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/samsung.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Samsung Galaxy S21 Ultra 5G</p>
     <p>8GB RAM 256GB ROM</p>
     <p>Price: USD 387.2</p>
@@ -266,7 +321,7 @@
     
 
     <div class="product">
-    <img src="iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
+    <img src="img/iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
      <p>Iphone 11 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -275,7 +330,7 @@
     
   
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -284,7 +339,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -292,14 +347,14 @@
    </div>
 
     <div class="product">
-    <img src="newiphone.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/newiphone.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Brand New Iphone 14</p>
     <p>256GB ROM</p>
     <p>Price: USD 317.2</p>
     <button>Add to Cart</button>
       </div>
        <div class="product">
-     <img src="iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
+     <img src="img/iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
      <p>Iphone 11 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -308,7 +363,7 @@
 
 
       <div class="product">
-     <img src="latest.jpg" width="200px" height="200px" alt="latest">
+     <img src="img/latest.jpg" width="200px" height="200px" alt="latest">
      <p>SAMSUNG GALAXY S22 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -316,7 +371,7 @@
       </div>
 
       <div class="product">
-     <img src="note.jpg" width="200px" height="200px" alt="note">
+     <img src="img/note.jpg" width="200px" height="200px" alt="note">
      <p>Samsung Galaxy Note 20 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -325,7 +380,7 @@
     
   
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -333,7 +388,7 @@
     </div>
 
      <div class="product">
-    <img src="samsung.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/samsung.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Samsung Galaxy S21 Ultra 5G</p>
     <p>8GB RAM 256GB ROM</p>
     <p>Price: USD 387.2</p>
@@ -342,7 +397,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -352,7 +407,7 @@
 
 
     <div class="product">
-    <img src="newiphone.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/newiphone.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Brand New Iphone 14</p>
     <p>256GB ROM</p>
     <p>Price: USD 317.2</p>
@@ -361,7 +416,7 @@
 
 
       <div class="product">
-    <img src="fold.jpg" width="200px" height="200px" alt="fold">
+    <img src="img/fold.jpg" width="200px" height="200px" alt="fold">
     <p>Samsung SZ flip</p>
     <p>256GB ROM 8GB RAM</p>
     <p>Price: USD 319.2</p>
@@ -373,7 +428,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -381,7 +436,7 @@
       </div>
 
     <div class="product">
-    <img src="samsung.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/samsung.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Samsung Galaxy S21 Ultra 5G</p>
     <p>8GB RAM 256GB ROM</p>
     <p>Price: USD 387.2</p>
@@ -390,7 +445,7 @@
     
 
     <div class="product">
-    <img src="iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
+    <img src="img/iphone2.jpg" width="200px" height="200px" alt="Iphone 11">
      <p>Iphone 11 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 187</p>
@@ -399,7 +454,7 @@
     
   
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -408,7 +463,7 @@
   
 
  <div class="product">
-     <img src="watch.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/watch.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Apple Smart Watch SE(2022)</p>
      <p>Midnight Alminium Case </p>
      <p>Sport band 44mm M/I</p>
@@ -416,7 +471,7 @@
    </div>
 
     <div class="product">
-    <img src="newiphone.jpg" width="200px" height="200px" alt="Phone 1">
+    <img src="img/newiphone.jpg" width="200px" height="200px" alt="Phone 1">
     <p>Brand New Iphone 14</p>
     <p>256GB ROM</p>
     <p>Price: USD 317.2</p>
@@ -426,7 +481,7 @@
 
 
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -436,7 +491,7 @@
 
 
    <div class="product">
-     <img src="s10.jpg" width="200px" height="200px" alt="Laptop 1">
+     <img src="img/s10.jpg" width="200px" height="200px" alt="Laptop 1">
      <p>Samsung Galaxy S10 </p>
      <p>4GB RAM 128GB ROM</p>
      <p>Price: USD 135.4</p>
@@ -462,7 +517,7 @@
 </div>
 
 <div class="openphoto">
-  <img src="open.jpg" alt="Open 24hrs">
+  <img src="img/open.jpg" alt="Open 24hrs">
 </div>
 </div>
 
@@ -580,13 +635,13 @@
  <div class="vendor-image">
   <h2>Thank You For Shopping With Us</h2>
     
-<img src="vendor.jpg"></div>
+<img src="img/vendor.jpg"></div>
 
 
 
  <button id="back-to-top">Back To Top</button>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 
  
