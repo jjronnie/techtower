@@ -9,12 +9,20 @@
     display: none; /* Hide for desktop */
 }
 .desktop-nav {
-    display: block; /* Display for desktop */
-    font-size: 22px;
-    text-decoration: none;
-    color: white;
+    z-index: 1000;   
     position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px;
     background-color: goldenrod;
+}
+.desktop-nav a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+
 }
 
 .menu-container {
@@ -78,7 +86,7 @@ body {
 }
 
 /* Banner styles */
-.banner {
+.banner{
     height: 300px; 
     width: 100%;     
     background-image: url(img/banner.jpg); 
@@ -433,16 +441,20 @@ a{
     .menu-btn {
         position: fixed;
         cursor: pointer;
-        
+        padding: 5px;
         left: 80%;
         top: 20px;
+        z-index: 1000;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
     }
+    
     
     .menu-btn span {
         display: block;
         width: 30px;
         height: 3px;
-        background-color: white;
+        background-color: goldenrod;
         margin: 6px 0;
         
     }
@@ -457,21 +469,27 @@ a{
       .menu {
         display: none;
         position: fixed;
-        background-color: white;
+        background-color: goldenrod;
         min-width: 50px;
+        border-radius: 5px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         padding: 12px;
         z-index: 1;
         top: 90px;
         left: 70%;
+        
+
       }
       
       .menu a {
         display: block;
         padding: 8px 0;
         text-decoration: none;
-        color: black;
+        color: white;
         text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+        
       }
       
       .menu a:hover {
@@ -494,6 +512,10 @@ a{
         text-align: left;
         padding: 5px;
         margin: 0;
+    }
+
+    .banner{
+        height: 200px;
     }
 
     .banner-text p {
