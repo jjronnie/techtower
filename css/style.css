@@ -497,6 +497,9 @@ a{
         border-radius: 5px;
         padding: 5px;
       }
+      .line{
+        border: 1px solid;
+      }
       
   
     
