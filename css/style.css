@@ -470,13 +470,14 @@ a{
         display: none;
         position: fixed;
         background-color: goldenrod;
-        min-width: 50px;
+        min-width: 120px;
         border-radius: 5px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         padding: 12px;
         z-index: 1;
-        top: 90px;
-        left: 70%;
+        top: 80px;
+        left: 60%;
+        margin: 0;
         
 
       }
@@ -494,7 +495,6 @@ a{
       
       .menu a:hover {
         background-color: black;
-        border-radius: 5px;
         padding: 5px;
       }
       .line{
