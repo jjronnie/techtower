@@ -409,8 +409,8 @@ a{
     color: #fff;
     border: none;
     font-size: 16px;
-    border-radius: 5%;
-    padding: 10px;
+    border-radius: 20%;
+    padding: 20px;
     cursor: pointer;
 }
 
@@ -665,5 +665,20 @@ a{
 .product p{
     font-size: 16px;
 
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 20%;
+    padding: 20px;
+    cursor: pointer;
 }
 }
