@@ -89,7 +89,7 @@ body {
 .banner{
     height: 400px; 
     width: 100%;     
-    background-image: url(/img/banner.jpg); 
+    background-image: url(img/banner.jpg); 
     background-size: cover; 
     background-repeat: no-repeat; 
 }
@@ -523,7 +523,7 @@ a{
     .banner{
         height: 260px;
         width: 100%;     
-        background-image: url(/img/banner.jpg); 
+        background-image: url(img/banner.jpg); 
         background-size: cover; 
         background-repeat: no-repeat; 
     }
