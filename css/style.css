@@ -89,8 +89,9 @@ body {
 .banner{
     height: 400px; 
     width: 100%;     
-    background-image: url(banner.jpg); 
-    background-image: url(/img/buy.jpg); 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+  url(/img/banner.jpg);
+     
     background-size: cover; 
     background-repeat: no-repeat; 
 }
@@ -524,7 +525,7 @@ a{
     .banner{
         height: 260px;
         width: 100%;     
-        background-image: url(banner.jpg); 
+         
         background-size: cover; 
         background-repeat: no-repeat; 
     }
