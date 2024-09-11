@@ -90,6 +90,7 @@ body {
     height: 400px; 
     width: 100%;     
     background-image: url(banner.jpg); 
+    background-image: url(/img/buy.jpg); 
     background-size: cover; 
     background-repeat: no-repeat; 
 }
