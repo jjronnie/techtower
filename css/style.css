@@ -87,12 +87,14 @@ body {
 
 /* Banner styles */
 .banner{
+    position: relative;
+
     height: 400px; 
     width: 100%;     
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(/img/banner.jpg);
     background-position: center;     
     background-size: cover; 
-    background-repeat: no-repeat; 
+    
 }
 /* Banner text styles */
 .banner-text{
